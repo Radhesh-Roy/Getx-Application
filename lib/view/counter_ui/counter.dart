@@ -19,8 +19,11 @@ final CounterController counterController= Get.put(CounterController());
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+
             Obx(()=>Text("${counterController.counter}"),),
             Row(
+
+
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(onPressed: () {
